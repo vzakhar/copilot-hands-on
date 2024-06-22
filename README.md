@@ -27,6 +27,8 @@ If everything is successful, you will see a banner that says `You have successfu
 ![Forking repository](./images/cpho1.png?raw=true "Forking the repository")
 ![Forking repository](./images/cpho2.png?raw=true "Forking the repository")
 
+- Once the fork has been created, open your forked instance of the repo and continue the next steps from there. 
+
 ## 3. Start your codespace
 
 In your forked repository, start a new codespace.
