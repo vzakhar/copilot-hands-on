@@ -7,7 +7,7 @@ Revision 1.1 - 06/21/24
 ## Introduction
 Welcome to the GitHub Copilot Hands-On Workshop! In this workshop, you will learn how to use GitHub Copilot, the world's most widely adopted AI developer tool. GitHub Copilot is an AI pair programmer that helps you write code faster and with fewer errors. It is powered by OpenAI's Large Language Model (LLM), which is a state-of-the-art language model trained on a diverse range of data sources, including publicly available code from GitHub. GitHub Copilot is available as a Visual Studio Code extension and can be used in any language, including Python, JavaScript, TypeScript, Go, Ruby, Java, C++, and many more.
 
-## Befrore you begin
+## Before you begin
 
 ### 1. Follow the startup instructions in [the README.md file](README.md) IF NOT ALREADY DONE!
 
@@ -101,7 +101,7 @@ You can scan through these and then pick a different one if you want by clicking
 
 ![alternative suggestions](./images/cdd4.png?raw=true "alternative suggestions")   
 
-12. Let's do one more pass at getting a specific prompt for Copilot. Delete all the code currently in index.js. This time we will not enter a comment, but will enter a specific funtion name.
+12. Let's do one more pass at getting a specific prompt for Copilot. Delete all the code currently in index.js. This time we will not enter a comment, but will enter a specific function name.
 Type the following in the empty file. (There are no parentheses after the *splitURLandReturnComponents* text.)  Do not hit tab or return yet.
 
 ```
@@ -215,7 +215,7 @@ If it is not already visible, open the **GitHub Copilot Chat** panel. Click on t
 
 ![Output of /help](./images/pic013.png?raw=true "Output of /help")
 
-Let's see if we can use chat to learn more about Copilt's capabilities. Enter the following in the chat panel and press `Enter`.
+Let's see if we can use chat to learn more about Copilot's capabilities. Enter the following in the chat panel and press `Enter`.
 
 ```
 /help
@@ -304,7 +304,7 @@ code create-tables.sql
 -- define a select statement to get all students enrolled in a course
 ```
 
-8. If all goes well, this second pass should generate a query with many more specific references to the names and identifiers used in *create-tables.sql*.  (If not, delete the result and try again.) Take a look at the query and then compare the names/identifiers used to the ones in the *create-tables.sql* file. **This will show that Copilot picks up on context from other files available to it to make better suggestions.** This is one of of the key principles of **Prompt Engineering** - providing the right context to Copilot to get the best results. **Remember that Copilot is context-aware and will provide better results with more context.** Take some time now to learn more about Prompt Engineering, check out [Prompt engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot) from the GitHub documentation. 
+8. If all goes well, this second pass should generate a query with many more specific references to the names and identifiers used in *create-tables.sql*.  (If not, delete the result and try again.) Take a look at the query and then compare the names/identifiers used to the ones in the *create-tables.sql* file. **This will show that Copilot picks up on context from other files available to it to make better suggestions.** This is one of the key principles of **Prompt Engineering** - providing the right context to Copilot to get the best results. **Remember that Copilot is context-aware and will provide better results with more context.** Take some time now to learn more about Prompt Engineering, check out [Prompt engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot) from the GitHub documentation. 
 
 ![New query](./images/cdd97.png?raw=true "New query") 
 
@@ -373,7 +373,7 @@ write a function to seed a random number generator
 
 3. Copilot has probably generated code using the rand.Seed function. The challenge is that as of Go 1.20, the Seed function is deprecated.  Ref: https://cs.opensource.google/go/go/+/refs/tags/go1.21.0:src/math/rand/rand.go;l=394
 
-4. Let's see if Copilot understands that this is deprecrated. We'll ask it via a query. Use **CMD+I** and the query below.
+4. Let's see if Copilot understands that this is deprecated. We'll ask it via a query. Use **CMD+I** and the query below.
 
 ```
 Is the Seed function deprecated in Go?
@@ -381,7 +381,7 @@ Is the Seed function deprecated in Go?
 
 5. Copilot probably responded with no and some info about the function. So one way we can help Copilot understand language updates is by providing the context in our file. So let's start again. Delete the current content in the explore.go file.
 
-6. Now,let's provide Copilot some more direct context by copying in updated code examples. After deleting the code block from step 3, copy and paste in the following example of the replacement for the Seed deprecation into your explore.go file.  This is taken from pkg.go.dev/math/rand.
+6. Now, let's provide Copilot some more direct context by copying in updated code examples. After deleting the code block from step 3, copy and paste in the following example of the replacement for the Seed deprecation into your explore.go file.  This is taken from pkg.go.dev/math/rand.
 
 ```
 	// Create and seed the generator.
@@ -468,9 +468,9 @@ translate to Go
 
 **=========== END OF LAB ===========**
  
-## Lab 8 - Exploring Javascript, regular expression generator, auto-generating data
+## Lab 8 - Exploring JavaScript, regular expression generator, auto-generating data
 
-**Purpose: Show Javascript and regular expression generation, auto-generate routine mappings**
+**Purpose: Show JavaScript and regular expression generation, auto-generate routine mappings**
 
 1. Create a new file as **phone.js**
 
@@ -649,7 +649,7 @@ Create a GitHub Actions workflow to build a .NET Core application and deploy it 
 ```
 ![Generate a GitHub Actions Workflow](./images/pic009.png?raw=true "Generate a GitHub Actions Workflow")
 
-Take some time to analyze the resulting **GitHub Actions** workflow. You can see that it is referencing several Actions that come from the **GitHub Marketplace**, what a time saver! We did not have to manually figure out and look up the multiple Actions that need to be used, GitHub Copilot did that for us. Your suggestion may include an important note insturcting you to properly manage the `AZURE_WEBAPP_PUBLISH_PROFILE`. This is a form of a **secret** that we would want manage very diligently to ensure that it does not fall into the hands of a hacker. We can use **Azure OpenID Connect** to avoid having to manage and store secrets like an `AZURE_WEBAPP_PUBLISH_PROFILE`. 
+Take some time to analyze the resulting **GitHub Actions** workflow. You can see that it is referencing several Actions that come from the **GitHub Marketplace**, what a time saver! We did not have to manually figure out and look up the multiple Actions that need to be used, GitHub Copilot did that for us. Your suggestion may include an important note insturucting you to properly manage the `AZURE_WEBAPP_PUBLISH_PROFILE`. This is a form of a **secret** that we would want manage very diligently to ensure that it does not fall into the hands of a hacker. We can use **Azure OpenID Connect** to avoid having to manage and store secrets like an `AZURE_WEBAPP_PUBLISH_PROFILE`. 
 
 2. Let's refine the prompt to be more specific and see what happens. Enter the refined prompt below in the chat interface.
 
@@ -675,14 +675,14 @@ Now that we have this workflow, we can ask GitHub Copilot to insert the suggeste
 
 ![Generate a GitHub Actions Workflow](./images/pic011.png?raw=true "Generate a GitHub Actions Workflow")
 
-The key takeaways from this lab are that you can iterate via **GitHub Copilot Chat** by adding more and more specifics to end up with a very comprehensive suggestion. So, as you are crafting prompts be sure to think about what specifics you should add to help ensure that **GitHub Copilot** provides suggestions that meet all of your reuirements for scalability, maintainability, robustness, etc. Also, **GitHub Copilot** can be used to generate a lot more than just traditional "code". Where else might you want to leverage **GitHub Copilot**? Creating Infrastructure as Code files such as Terraform files? Writing PowerShell scripts? **GitHub Copilot** is your AI Pair Programmer for just about anything. 
+The key takeaways from this lab are that you can iterate via **GitHub Copilot Chat** by adding more and more specifics to end up with a very comprehensive suggestion. So, as you are crafting prompts be sure to think about what specifics you should add to help ensure that **GitHub Copilot** provides suggestions that meet all of your requirements for scalability, maintainability, robustness, etc. Also, **GitHub Copilot** can be used to generate a lot more than just traditional "code". Where else might you want to leverage **GitHub Copilot**? Creating Infrastructure as Code files such as Terraform files? Writing PowerShell scripts? **GitHub Copilot** is your AI Pair Programmer for just about anything. 
 
 **=========== END OF LAB ===========**
 
 ## Wrap up and next steps
 
 **GitHub Copilot can be used with almost any language!**
-As you have seen in this lab, you can use GitHub Copilot to generate code in almost any language. You can also use it to generate MarkDown. **GitHub Copilot** was used to generate the content of this lab guide.
+As you have seen in this lab, you can use GitHub Copilot to generate code in almost any language. You can also use it to generate Markdown. **GitHub Copilot** was used to generate the content of this lab guide.
 
 ### Check out these resources to dive in and learn more
 If you have completed all the labs, and there is still time left in today's session you can check out the resources in [**GitHub-Copilot-Resources.md**](https://github.com/DaveOps30/copilot-hands-on/blob/main/GitHub-Copilot-Resources.md). 
