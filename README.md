@@ -3,7 +3,7 @@
 These instructions will guide you through configuring a GitHub Codespaces environment that you can use to run the course labs. 
 If you prefer and if you know one of the other IDEs supported by Copilot, you can use that. But the instructions will reference the codespace version.
 
-NOTE: These lab instructions are a fork of the [GitHub Copilot Hands-on](https://github.com/skillrepos/copilot-hands-on) repository. Please go to the original repository, https://github.com/skillrepos/copilot-hands-on and **give it a star**  to show your support for the author of the riginal content on which this lab is based.
+NOTE: These lab instructions are a fork of the [GitHub Copilot Hands-on](https://github.com/skillrepos/copilot-hands-on) repository. Please go to the original repository, https://github.com/skillrepos/copilot-hands-on and **give it a star**  to show your support for the author of the original content on which this lab is based.
 
 These steps **must** be completed prior to starting the actual labs.
 
@@ -15,14 +15,14 @@ Fill in any information requested and press the `Apply coupon` button.
 
 ![Signing up for Copilot](./images/pic007.png?raw=true "Signing up for Copilot")
 
-If everything is succesful, you will see a banner that says `You have successfully redeemed your coupon`.
+If everything is successful, you will see a banner that says `You have successfully redeemed your coupon`.
 
 ![Signing up for Copilot](./images/pic008.png?raw=true "Signing up for Copilot")
 
 ## 2. Create your own fork of the repository for these labs
 
 - Ensure that you have created a repository by forking the [DaveOps30/copilot-hands-on](https://github.com/DaveOps30/copilot-hands-on) project as a template into your own GitHub area.
-- You do this by navigating to the repo, clicking the `Fork` button in the upper right portion of the main project page and following the steps to create a copy in **your-github-userid/copilot-hands-on** .
+- You do this by navigating to the repo, clicking the `Fork` button in the upper right portion of the main project page and following the steps to create a copy in **your-github-userid/copilot-hands-on**.
 
 ![Forking repository](./images/cpho1.png?raw=true "Forking the repository")
 ![Forking repository](./images/cpho2.png?raw=true "Forking the repository")
@@ -37,7 +37,7 @@ In your forked repository, start a new codespace.
 
 **This will run for several minutes while it gets everything ready.**
   
-- After the codespace has initialized there will be a terminal present.
+- After the codespace has been initialized there will be a terminal present.
 
 ![Starting codespace](./images/cpho3.png?raw=true "Starting your codespace")
 
