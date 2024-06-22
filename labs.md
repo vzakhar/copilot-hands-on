@@ -26,18 +26,16 @@ If you were using the **Visual Studio Code** application, you would have to manu
 
 **NOTE:** You can also use **GitHub Copilot** in [Visual Studio](https://docs.github.com/en/copilot/quickstart?tool=visualstudio) and [compatible JetBrains IDEs](https://docs.github.com/en/copilot/quickstart?tool=jetbrains). 
 
-### 3. Configure the Codespace to make LABS.MD always visible
+### 3. Configure your desktop to make LABS.MD always visible
 
-Before we begin, we will configure the Codespace to make the labs.md file always visible. This will allow you to easily switch between the lab instructions and any editor windows you have open.
-1. Right-click on the labs.md tab at the top of the editor window.
+Before we begin, we will configure the browser windows to make the labs.md file always visible. This will allow you to easily switch between the lab instructions and any editor windows you have open.
+1. Select the labs.md tab and drag it down so that it moves into a separate window.
 
-2. Click on the "Split Down" option in the context menu that appears.
+2. If you are on Windows, you can "snap" the labs.md tab to one side or another and select the Codespace tab as the adjacent window. 
 
-3. Click inside the new editor window that appears at the bottom of the screen. We want our next new file to appear here.
+3. Move the vertical slider until you can comfortably see the instructions in labs.md and the Codespace side by side. 
 
-4. Now we can enter commands in the terminal to create new files and they will appear in the bottom editor window. Now we can see the labs.md file at the top and any file we are editing at the bottom.
-
-NOTE: You may need to repeat these steps again later if you close all files you are editing and want to open a new one in the bottom editor window.
+Now we can see the labs.md file to one side of the screen while we are executing the actions in the Codespace on the other side of the screen. If needed, adjust the zoom level in either or both windows as desired. 
 
 ![Split View](./images/pic001.png?raw=true "Split View")
 
