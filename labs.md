@@ -26,6 +26,8 @@ If you were using the **Visual Studio Code** application, you would have to manu
 
 **NOTE:** You can also use **GitHub Copilot** in [Visual Studio](https://docs.github.com/en/copilot/quickstart?tool=visualstudio) and [compatible JetBrains IDEs](https://docs.github.com/en/copilot/quickstart?tool=jetbrains). 
 
+You can now close `.devcontainer/devcontainer.json` as we do not need this for anything else in this lab.
+
 ### 3. Configure your desktop to make LABS.MD always visible
 
 Before we begin, we will configure the browser windows to make the labs.md file always visible. This will allow you to easily switch between the lab instructions and any editor windows you have open.
