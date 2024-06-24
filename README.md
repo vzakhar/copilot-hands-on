@@ -9,7 +9,9 @@ These steps **must** be completed prior to starting the actual labs.
 
 ## 1. Ensure that you are signed up for Copilot access. 
 
-If you do not already have access to **GitHub Copilot**, go to **https://github.com/redeem/XXX-YYY** where `XXX-YYY` is the coupon code for your workshop. 
+If you do not already have access to **GitHub Copilot**, go to **https://gh.io/aiwf2024** to redeem a 7-day free trial of GitHub Copilot. You can also use this QR code. 
+<p align="center">
+<img width="250" height="250" src="https://github.com/user-attachments/assets/8fc0ef0b-6956-452c-b819-64abd9435e0a"></p>
 
 Fill in any information requested and press the `Apply coupon` button.
 
