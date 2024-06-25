@@ -136,7 +136,7 @@ def is_prime(n
 
 5. Highlight the code and select the Chat extension icon to open the chat window.  Tell Copilot to simplify the code by typing in the chat window.
 ```
-/simplify
+simplify
 ```
 
 ![simplifying via chat box](./images/cdd35.png?raw=true "simplifying via chat box") 
@@ -349,7 +349,7 @@ select * from courses.registration where year(registration_date) = 2023 and mont
 14. Ask Copilot to optimize the previous query. You can do this via highlighting the query, using the **CMD+I** shortcut and entering "/optimize" in the dialog. You can Accept or Discard the suggested optimization after that.
 
 ```
-/optimize
+optimize
 ```
 ![Optimizing a query](./images/cdd52.png?raw=true "Optimizing a query") 
 
